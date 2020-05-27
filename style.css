@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box; 
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 720px;
+  width: 840px;
+}
+
+.grid div {
+  height: 120px;
+  width: 120px;
+  border: 1px solid black;
+}
+
+.player-one {
+  background-color: red;
+  border-radius: 50%;
+}
+
+.player-two {
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.taken {
+  height: 119px;
+  width: 119px; 
+}
+
+.bottom-row {
+  background-color: black; 
+}
