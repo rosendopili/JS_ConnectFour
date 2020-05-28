@@ -28,6 +28,7 @@
 .taken {
   height: 119px;
   width: 119px; 
+  pointer-events: none; 
 }
 
 .bottom-row {
